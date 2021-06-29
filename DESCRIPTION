@@ -1,0 +1,37 @@
+Package: multimeter
+Title: Inspect Data Pipelines
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+      person(
+        given = "Brian",
+        family = "Vancil",
+        role = c("aut", "cre"),
+        email = "1388508+bvancil@users.noreply.github.com",
+        comment = c(ORCID = "https://orcid.org/0000-0003-1145-3681")
+      )
+    )
+Description: Inspect data pipelines (especially magrittr pipelines) for before-after changes during tricky operations.
+License: GPL (>= 3) + file LICENSE
+Suggests: 
+    covr,
+    devtools,
+    pkgdown,
+    rmarkdown,
+    styler,
+    testthat (>= 3.0.0),
+    usethis
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    R6,
+    dplyr,
+    magrittr,
+    purrr,
+    tibble,
+    vctrs
+URL: https://github.com/bvancil/multimeter
+BugReports: https://github.com/bvancil/multimeter/issues

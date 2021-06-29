@@ -1,0 +1,7 @@
+styler::style_pkg()
+renv::snapshot()
+devtools::document()
+devtools::build_readme()
+devtools::test()
+devtools::check()
+# devtools::build()
